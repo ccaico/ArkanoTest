@@ -141,4 +141,4 @@ Más detalle en: https://learn.microsoft.com/es-es/azure/azure-sql/database/sing
 
 Siguiendo estos pasos, habrás configurado un entorno completo de ETL en Azure utilizando ADLS, Databricks y SQL Server. Este proceso te permitirá cargar archivos, limpiarlos y transformarlos en Databricks, y finalmente almacenarlos en una base de datos SQL Server. El proceso se activará mediante un trigger de llegada de archivos.
 
-Como mejora se podría considerar utilizar servicios adicionales o librerías adcionales para poder automatizar incluso la carga del archivo desde el momento en que se descarga al local, podría ser tal vez un Datafactory autohospedado que pueda cargar los archivos locales a ADLS.
+Como mejora se podría considerar utilizar servicios adicionales o librerías adicionales para poder automatizar incluso la carga del archivo desde el momento en que se descarga al local, podría ser tal vez un Datafactory autohospedado que pueda cargar los archivos locales a ADLS y a partir de ahí continuar el flujo ya desarrollado.
